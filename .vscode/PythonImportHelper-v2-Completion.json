@@ -1,0 +1,119 @@
+[
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "multiplication",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def multiplication():   #defination for multiplacation calculation \n     x = input(\"Give me a number to multiply:\") #input for first number \n     y = input(\"What do you want it multiplied by?\") #input for second number \n     z =int(x) * int(y)  #calculate modulo operator\n     print (\"The result is: \" + str(z)) #display result \ndef division(): # defination of division operation\n      x = input(\"give me a divident:\") #input convert to integer according x\n      y = input(\"What do you want it divided by?\") # #input convert to integer according y\n      z = float(x) / int(y)  #  integer division operation  \n      print(\"The result is: \" + str(z)) #print the result division operation",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "division",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def division(): # defination of division operation\n      x = input(\"give me a divident:\") #input convert to integer according x\n      y = input(\"What do you want it divided by?\") # #input convert to integer according y\n      z = float(x) / int(y)  #  integer division operation  \n      print(\"The result is: \" + str(z)) #print the result division operation\ndef wide_boy_string(): # defination of wide_boy_string operation\n    user_str = input(\"Give me a string to w i d e n \\n\") #input and assign to user_str\n    for char in user_str: # loop for each character in the user input\n         print(char, end=\" \") ## print the character without newline character followed by space\ndef wide_boy_string2(): # defination of wide_boy_string2 operation",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "wide_boy_string",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def wide_boy_string(): # defination of wide_boy_string operation\n    user_str = input(\"Give me a string to w i d e n \\n\") #input and assign to user_str\n    for char in user_str: # loop for each character in the user input\n         print(char, end=\" \") ## print the character without newline character followed by space\ndef wide_boy_string2(): # defination of wide_boy_string2 operation\n    user_str = input (\"give me a string to w i d e n \\n\") #input and assign to user_str\n    i = 0 #counter i to zero\n    wide_str = \" \"  #wide_str to a single space character\n    for char in user_str : # loop over each character in the input\n        wide_str = wide_str + char + \" \" # add the character followed space to wide_str",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "wide_boy_string2",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def wide_boy_string2(): # defination of wide_boy_string2 operation\n    user_str = input (\"give me a string to w i d e n \\n\") #input and assign to user_str\n    i = 0 #counter i to zero\n    wide_str = \" \"  #wide_str to a single space character\n    for char in user_str : # loop over each character in the input\n        wide_str = wide_str + char + \" \" # add the character followed space to wide_str\n        if i < len(user_str) - 1: # check if the current character not the last character in the input\n            wide_str = wide_str + char + \" \" # add the character followed space to wide_str\n        else: # if the current character is  last character in  input\n            wide_str = wide_str + char     ",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "for_loop_example",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def for_loop_example(): # defination of for_loop_example operation\n    x = input(\"How many times should i run?\") #input and assign to x\n    for i in range(int(x)): # loop fnish the range of numbers from 0 to x1\n        print(\"This loop is running for the \" +str(i+1) +\" time. \") # print message the current iteration number\ndef odd_or_even():# defination of odd_or_even operation\n    x  = int(input(\"Which number do you want me to check?\")) #enter a number and assign to x\n    if x % 2 == 0: # check if the number is even\n        print(\"The number\" + str(x)+\" is even \") # if even print this message\n    else: # if not even, it must be odd\n        print(\"The number\" + str(x)+\" is an odd duck. \") # print this message ",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "odd_or_even",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def odd_or_even():# defination of odd_or_even operation\n    x  = int(input(\"Which number do you want me to check?\")) #enter a number and assign to x\n    if x % 2 == 0: # check if the number is even\n        print(\"The number\" + str(x)+\" is even \") # if even print this message\n    else: # if not even, it must be odd\n        print(\"The number\" + str(x)+\" is an odd duck. \") # print this message \ndef ascii_sum():# defination of ascii_sum operation\n    user_str = input(\"Give me a string for which you want the sum of the ASCII values of its chars: \\n\") #input a string and store it in user_str\n    str_size = len(user_str) #length of the user_str string and store it in str_size\n    i = 0 #Set i variable to 0",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "ascii_sum",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def ascii_sum():# defination of ascii_sum operation\n    user_str = input(\"Give me a string for which you want the sum of the ASCII values of its chars: \\n\") #input a string and store it in user_str\n    str_size = len(user_str) #length of the user_str string and store it in str_size\n    i = 0 #Set i variable to 0\n    sum=0 ## sum to 0 to store the total ASCII \n    while i < str_size: ## Loop each character in str \n        sum = sum + ord(user_str[i]) ## ASCII value of the current character and add it to the sum \n        i = i + 1 ## i by 1 move to the next character in the str\n    print(\"The sum of all these ASCII values is\" , str(sum)) ## Print the final sum of the ASCII values \ndef string_flipper(): #defines the function called ",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "string_flipper",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def string_flipper(): #defines the function called \n    user_str = input(\"Give me a string you want flipped or reversed \\n\") #  enter a string and stores \n    for char in reversed (user_str): #each character in the reversed of the str\n        print(char, end=\"\") #prints each character in the reversed string\ndef change_machine(): #defines the function called \n     change = int(input(\"how much do you want \\n \")) # input an amount of money they want to receive \n     coins = (100,50,25,10,5) #use to calculate the amount of change to be given.\n     coin_counts = [0,0,0,0,0] #will be used to keep track of the number of coins\n     for i in range(len(coins)): # over each coin value in the coins \n         while change >= coins[i]:  #change required is greater than or equal to the value of the current coin.",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "change_machine",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def change_machine(): #defines the function called \n     change = int(input(\"how much do you want \\n \")) # input an amount of money they want to receive \n     coins = (100,50,25,10,5) #use to calculate the amount of change to be given.\n     coin_counts = [0,0,0,0,0] #will be used to keep track of the number of coins\n     for i in range(len(coins)): # over each coin value in the coins \n         while change >= coins[i]:  #change required is greater than or equal to the value of the current coin.\n           change -= coins[i] #coin from the remaining amount of change required.\n           coin_counts[i] += 1 #Increases the count of the current coin in the coin_counts \n     print(\"Total number of coins:\", sum(coin_counts)) # Prints the total number of coins\n     print(\"Coin counts:\", coin_counts) # Prints the total number of coins needed",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "rock_paper_scissors",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def rock_paper_scissors(): #defines the function called \n    options = ['rock', 'paper', 'scissors'] #this line creates a list of the options for the game\n    player_choice = input(\"Choose rock, paper, or scissors: \").lower() #This line prompts the user to input their choic\n    computer_choice = random.choice(options) #This line uses the randomly choice option \n    print(\"You chose:\", player_choice) #This lines simply print out \n    print(\"Computer chose:\", computer_choice) #This lines simply print out \n    if player_choice == computer_choice: #This line checks if the user choice  same as computer choic\n        print(\"It's a tie!\") #print  message indicating that it a tie.\n        #Under this line shown, line checks if  choice beats the computer choice according to the game rules.\n    elif (player_choice == 'rock' and computer_choice == 'scissors') or \\",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "Mario_wins",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def Mario_wins():\n    # Get user input for the number of stairs\n    stairs = int(input(\"How many stairs should Mario climb to finish the level? \"))\n    # Check that the number of stairs is within range (1-23)\n    if stairs < 1 or stairs > 23:\n        print(\"Invalid number of stairs. Please choose a number between 1 and 23.\")\n        return\n    # Loop through each row of the stairs pattern and print it\n    for i in range(stairs):\n        print(\" \" * (stairs - i - 1) + \"#\" * (i + 2) + \"  |\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "menu",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def menu():\n    print(\"Please select a function to run by entering a number between 0 and 10:\")\n    print(\"0. Multiplication\")\n    print(\"1. Division\")\n    print(\"2. Wide Boy String\")\n    print(\"3. Wide Boy String 2\")\n    print(\"4. For Loop Example\")\n    print(\"5. Odd or Even\")\n    print(\"6. ASCII Sum\")\n    print(\"7. String Flipper\")",
+        "detail": "main",
+        "documentation": {}
+    }
+]
